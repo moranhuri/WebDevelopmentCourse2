@@ -1,0 +1,133 @@
+body {
+    direction: rtl;
+    background-image: url('../images/backgroundOpacity.png');
+    margin: 0 auto;
+    position:center;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-size: 150px;
+    color: #f7b450;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+}
+
+img.icon {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    
+}
+
+#container {
+    font-family: 'Segoe UI';
+    color: navy;
+    text-align: center;
+    position: relative;
+
+}
+
+.contact {
+    position: absolute;
+    top: 90%;
+    right: 40%;
+ 
+}
+.icon:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+ul {
+    list-style: none;
+    margin-top: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+   
+}
+
+    nav ul li a {
+        display: block;
+        background-color: #edecdfbf;
+        color: black;
+        width: 300px;
+        height: 100px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        width: 300px;
+        margin: 0px;
+    }
+        nav ul li ul li {            
+            color: navy;
+            font-size: 18px;
+           
+            
+        }
+
+        nav ul li:hover > ul {
+        display: block;
+        width: 300px;       
+        background-color: #edecdfbf;
+
+    }
+
+.work li {
+    font-size: 40px;
+    display: inline-block;
+   margin-right: 180px;
+    color: navy;
+}
+
+.work2 li {
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 400px;
+    color: navy;
+}
+
+.school li {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    color: navy;
+}
+
+.courses li {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    color: navy;
+}
+
+.travel li {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    color: navy;
+}
+
+.gym li {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    color: navy;
+}
+
+.climbe {
+    font-size: 30px;
+    text-align: center;
+padding-right: 270px;
+padding-left: 270px;
+padding-top: 100px;
+    color: navy;
+}
